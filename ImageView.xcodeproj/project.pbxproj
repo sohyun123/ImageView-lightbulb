@@ -13,6 +13,8 @@
 		46CD51EF244C80B2008F8F46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46CD51ED244C80B2008F8F46 /* Main.storyboard */; };
 		46CD51F1244C80B6008F8F46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46CD51F0244C80B6008F8F46 /* Assets.xcassets */; };
 		46CD51F4244C80B6008F8F46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46CD51F2244C80B6008F8F46 /* LaunchScreen.storyboard */; };
+		46CD51FD244C8238008F8F46 /* lamp_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 46CD51FB244C8238008F8F46 /* lamp_off.png */; };
+		46CD51FE244C8238008F8F46 /* lamp_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 46CD51FC244C8238008F8F46 /* lamp_on.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		46CD51F0244C80B6008F8F46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46CD51F3244C80B6008F8F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46CD51F5244C80B6008F8F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46CD51FB244C8238008F8F46 /* lamp_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_off.png; sourceTree = "<group>"; };
+		46CD51FC244C8238008F8F46 /* lamp_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_on.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				46CD51E9244C80B2008F8F46 /* SceneDelegate.swift */,
 				46CD51EB244C80B2008F8F46 /* ViewController.swift */,
 				46CD51ED244C80B2008F8F46 /* Main.storyboard */,
+				46CD51FB244C8238008F8F46 /* lamp_off.png */,
+				46CD51FC244C8238008F8F46 /* lamp_on.png */,
 				46CD51F0244C80B6008F8F46 /* Assets.xcassets */,
 				46CD51F2244C80B6008F8F46 /* LaunchScreen.storyboard */,
 				46CD51F5244C80B6008F8F46 /* Info.plist */,
@@ -127,7 +133,9 @@
 			files = (
 				46CD51F4244C80B6008F8F46 /* LaunchScreen.storyboard in Resources */,
 				46CD51F1244C80B6008F8F46 /* Assets.xcassets in Resources */,
+				46CD51FE244C8238008F8F46 /* lamp_on.png in Resources */,
 				46CD51EF244C80B2008F8F46 /* Main.storyboard in Resources */,
+				46CD51FD244C8238008F8F46 /* lamp_off.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tistory.joyful-records.ImageView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tistory.joyful-records.ImageView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
