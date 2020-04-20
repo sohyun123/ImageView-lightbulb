@@ -29,16 +29,16 @@ class ViewController: UIViewController {
 
 
     @IBAction func btnResizeImage(_ sender: UIButton) {
-        let scale:CGFloat=2.0
+        let scale:CGFloat=1.5
         var newWidth:CGFloat, newHeight:CGFloat
         
-        if(isZoom)
+        if(isZoom) //This is when the picture is zoomed, we minimize the picture
         {
             newWidth = imgView.frame.width/scale
             newHeight = imgView.frame.height/scale
             btnResize.setTitle("Magnify",for: .normal)
         }
-        else
+        else  //This is when the picture is minimized, we magnify the picture
         {
             newWidth = imgView.frame.width*scale
             newHeight = imgView.frame.height*scale
@@ -46,6 +46,7 @@ class ViewController: UIViewController {
         }
         
         imgView.frame.size = CGSize(width: newWidth, height: newHeight)
+        //imgView.frame.origin.x =
         isZoom = !isZoom
     }
     
